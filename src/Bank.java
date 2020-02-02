@@ -63,7 +63,7 @@ public class Bank {
 //          Loop to get customers
             for(int i = 0; i < branchCustomers.size(); i++) {
                 Customer branchCustomer = branchCustomers.get(i);
-                System.out.println("Customer: " + branchCustomer.getName() + "[ " + i+1 + " ]");
+                System.out.println("Customer: " + branchCustomer.getName() + " [" + (i+1) + "]");
 
 //              Show transactions
                 if(showTransactions) {
@@ -72,7 +72,7 @@ public class Bank {
 
 //                  Loop to get transactions
                     for(int j = 0; j < transactions.size(); j++) {
-                        System.out.println("[ " + (j+1) + " ] Amount: " + transactions.get(j));
+                        System.out.println("[" + (j+1) + "] Amount: " + transactions.get(j));
                     }
                 }
             }
