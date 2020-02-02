@@ -15,6 +15,10 @@ public class Branch {
         return name;
     }
 
+    public ArrayList<Customer> getCustomers() {
+        return customers;
+    }
+
 //  Create new customer and initial transaction
     public boolean newCustomer(String customerName, double initialDeposit) {
         if(findCustomer(customerName) == null) {
